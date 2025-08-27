@@ -1,0 +1,25 @@
+theme = "base16_transparent"
+
+[editor]
+auto-completion = true
+line-number = "relative"
+bufferline = "multiple"
+popup-border = "all"
+auto-pairs = true
+auto-info = true           # hover info automatically
+cursorline = true
+soft-wrap.enable = true    # wrap long lines
+scrolloff = 5              # keep context when scrolling
+
+[editor.lsp]
+enable = true
+display-inlay-hints = true   # rust-analyzer type hints
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.whitespace]
+render = "all"
+
