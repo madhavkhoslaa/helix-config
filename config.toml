@@ -23,3 +23,5 @@ skip-levels = 1
 [editor.whitespace]
 render = "all"
 
+[keys.normal]
+p = ":sh kitty --detach glow -p \"$HELIX_CURRENT_FILE\""
